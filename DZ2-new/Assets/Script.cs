@@ -13,13 +13,13 @@ public class CollisionEvent : MonoBehaviour
     public void Start()
     {
         counter = 100;
-       // count_text.text = counter.ToString();
+        count_text.text = counter.ToString();
     }
 
     // Update is called once per frame
     public void Update()
     {
-        //count_text.text = counter.ToString();
+        count_text.text = counter.ToString();
     }
     public void OnClick()
     {
